@@ -1,4 +1,4 @@
-name: Monitor de Reclutamiento Defensa
+name: Monitor enfocado de Reclutamiento Defensa
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: defensa-page-monitor
+  group: defensa-section-monitor
   cancel-in-progress: false
 
 jobs:
@@ -30,17 +30,17 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Comprobar la pagina
+      - name: Comprobar las dos secciones
         id: check
         run: python monitor.py
 
-      - name: Guardar el nuevo hash
+      - name: Guardar el nuevo estado
         if: steps.check.outputs.status != 'unchanged'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add page_hash.txt
-          git commit -m "chore: actualizar hash de la pagina"
+          git add monitor_state.json
+          git commit -m "chore: actualizar estado de secciones vigiladas"
           git push
 
       - name: Avisar por Telegram
