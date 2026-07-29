@@ -69,6 +69,11 @@
         "url": "https://reclutamiento.defensa.gob.es/documents/2470587/3881950/Resultados_Provisionales_Nota_Concurso_CON_TITULACION_EOF_GC.pdf/fd118274-b1c8-f637-efc1-ec3d198ff5a3"
       },
       {
+        "date": "29 07 2026",
+        "title": "Resultados TMMA CON TITULACION EOF FAS GC",
+        "url": "https://reclutamiento.defensa.gob.es/documents/2470587/3881950/Resultados_TMMA_CON_TITULACION_EOF_FAS_GC.pdf/7b480338-fe36-1436-3426-c2ae6aab1a7e"
+      },
+      {
         "date": "23 07 2026",
         "title": "Comunicacion Excluidos CON TITULACION EOF GC",
         "url": "https://reclutamiento.defensa.gob.es/documents/2470587/3881960/Comunicacion_Excluidos_CON_TITULACION_EOF_GC.pdf/eec1f186-ca2e-1bf1-97df-b665c9d04659"
@@ -89,6 +94,11 @@
         "url": "https://reclutamiento.defensa.gob.es/documents/2470587/3881960/Resultados_Definitivos_Prueba_Ingles_CON_TITULACION_EOF_GC.pdf/a2f5391a-4763-27a1-fa65-c21bfd53c76a"
       },
       {
+        "date": "29 07 2026",
+        "title": "Resultados_Finales_Fase_Concurso_CON_TITULACION_EOF_GC",
+        "url": "https://reclutamiento.defensa.gob.es/documents/2470587/3881960/Resultados_Finales_Fase_Concurso_CON_TITULACION_EOF_GC.pdf/9e417f25-a30e-f237-1477-964268b112b6"
+      },
+      {
         "date": "21 07 2026",
         "title": "Resultados_Provisionales_Incidencias_Reconocimiento_Medico_HCD_CON_TITULACION_EOF_FAS_GC",
         "url": "https://reclutamiento.defensa.gob.es/documents/2470587/3881960/Resultados_Provisionales_Incidencias_Reconocimiento_Medico_HCD_CON_TITULACION_EOF_FAS_GC.pdf/429c805a-a273-1e5c-1cc7-e3e99d4c1c7e"
@@ -105,5 +115,5 @@
       }
     ]
   },
-  "sha256": "ce7ff92de2399ee63c0d6e65408a5069310cc05c2be4e29ee9de4d7daadf1472"
+  "sha256": "549fadc201f0d5046530f9b8bce3eede376ad2b7620632fe2c808c54e1e972f0"
 }
